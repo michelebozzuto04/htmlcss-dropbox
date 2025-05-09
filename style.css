@@ -90,6 +90,12 @@
     color: white;
 }
 
+.divider {
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.05);
+    margin: 1rem 0;
+}
+
 /*Generics*/
 body {
     font-family: sans-serif;
@@ -104,9 +110,6 @@ img {
     * {
         border: 1px dashed black;
     }
-
-    .jumbotron {}
-
 }
 
 /* Header */
@@ -114,6 +117,7 @@ img {
     position: sticky;
     top: 0;
     left: 0;
+    z-index: 100;
     background-color: white;
     padding: 1.2rem;
 
@@ -152,9 +156,9 @@ img {
     }
 }
 
+/* Jumbotron */
 .jumbotron {
-    background-color: var(--bg-primary-color-light);
-    height: 730px;
+    position: relative;
 
     h1 {
         font-size: 4.5rem;
@@ -163,6 +167,14 @@ img {
 
     .col-12 {
         padding: 3rem 0;
+    }
+
+    .jumbotron-bg-color {
+        position: absolute;
+        width: 100%;
+        z-index: -1;
+        background-color: var(--bg-primary-color-light);
+        height: 730px;
     }
 
     .jumbotron-content {
