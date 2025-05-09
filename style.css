@@ -174,7 +174,7 @@ img {
 
         .actions {
             ul {
-                gap: 10px;
+                gap: 15px;
             }
         }
     }
@@ -220,6 +220,7 @@ img {
     }
 }
 
+/* Price Section */
 #price-section {
     padding: 2rem 0;
 
@@ -329,8 +330,9 @@ img {
     }
 }
 
+/* Partner Section */
 .partner-section {
-    padding: 5rem 0;
+    padding: 10rem 0;
 
     .col-5 {
         flex-direction: column;
@@ -351,5 +353,12 @@ img {
             padding: 1rem 1rem;
             font-size: 1.2rem;
         }
+    }
+}
+
+/* Operations Section */
+.operations-section {
+    h3 {
+        font-size: 2.5rem;
     }
 }
