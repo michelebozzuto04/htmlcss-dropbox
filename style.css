@@ -235,14 +235,14 @@ img {
             padding: 1rem 0;
         }
 
+        h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
         .card-body {
             flex-direction: column;
             padding: 0 2rem;
-
-            h3 {
-                font-size: 1.5rem;
-                margin-bottom: 1rem;
-            }
 
             .plan-price {
                 font-weight: bold;
@@ -265,12 +265,39 @@ img {
                 }
             }
 
+            .divider {
+                width: 4rem;
+                margin-bottom: 3rem;
+            }
+
             .plan-highlights {
                 i {
                     color: var(--bg-primary-color);
                 }
+
+                .title {
+                    font-weight: bold;
+                }
             }
 
+        }
+
+        .card-body-lg {
+            padding: 0 2rem 2rem 2rem;
+            flex-direction: row;
+
+            .card-body-lg-top {
+                justify-content: space-between;
+
+                span {
+                    font-weight: bold;
+                }
+            }
+
+            .card-body-lg-bottom {
+                justify-content: space-between;
+                margin-top: 3rem;
+            }
         }
 
         .divider {
