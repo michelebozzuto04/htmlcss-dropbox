@@ -92,6 +92,12 @@
     color: white;
 }
 
+.btn-outlined {
+    background-color: white;
+    border: 1px solid var(--bg-color-dark);
+    color: black;
+}
+
 .divider {
     height: 1px;
     background-color: rgba(0, 0, 0, 0.05);
@@ -181,6 +187,10 @@ img {
     h1 {
         font-size: 4.5rem;
         font-weight: 900;
+    }
+
+    a {
+        color: #000;
     }
 
     .col-12 {
@@ -315,6 +325,31 @@ img {
 
         i {
             margin-right: 5px;
+        }
+    }
+}
+
+.partner-section {
+    padding: 5rem 0;
+
+    .col-5 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 1.5rem;
+
+        h3 {
+            font-size: 2rem;
+        }
+
+        p {
+            font-size: 1.2rem;
+            line-height: 1.5rem;
+        }
+
+        button {
+            padding: 1rem 1rem;
+            font-size: 1.2rem;
         }
     }
 }
