@@ -269,6 +269,10 @@ img {
             flex-direction: column;
             padding: 0 2rem;
 
+            li {
+                display: flex;
+            }
+
             .plan-price {
                 font-weight: bold;
                 margin-bottom: 0.7rem;
