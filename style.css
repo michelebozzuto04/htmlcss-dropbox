@@ -156,16 +156,28 @@ img {
     left: 0;
     z-index: 100;
     background-color: white;
-    padding: 1.2rem;
+    padding: 0 1.2rem;
 
     nav {
         justify-content: space-between;
+        height: 80px;
     }
 
     ul {
         align-items: center;
         list-style: none;
         gap: 30px;
+
+        li {
+            display: flex;
+            align-items: center;
+            height: 78px;
+        }
+
+        li:hover:not(.actions *) {
+            margin-bottom: -2px;
+            border-bottom: 2px solid black;
+        }
     }
 
     a {
@@ -179,6 +191,10 @@ img {
 
         .logo {
             width: 130px;
+
+            img {
+                vertical-align: middle;
+            }
         }
     }
 
