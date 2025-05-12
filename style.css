@@ -92,10 +92,23 @@
     color: white;
 }
 
+.btn-fill:hover {
+    background-color: var(--bg-primary-color);
+    border: 2px solid var(--bg-primary-color);
+    opacity: 0.7;
+    color: white;
+}
+
 .btn-outlined {
     background-color: white;
     border: 1px solid var(--bg-color-dark);
     color: black;
+}
+
+.btn-outlined:hover {
+    background-color: black;
+    border: 1px solid black;
+    color: white;
 }
 
 .divider {
