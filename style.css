@@ -378,3 +378,25 @@ img {
         }
     }
 }
+
+/* Teams Section */
+.teams-section {
+    padding: 12rem 0;
+    gap: 3rem;
+
+    .col-8 {
+        flex-direction: column;
+
+        h3 {
+            font-size: 2.5rem;
+        }
+
+        a {
+            padding: 3rem 0;
+            font-size: 1.2rem;
+        }
+    }
+}
+
+/* Footer */
+.main-footer {}
