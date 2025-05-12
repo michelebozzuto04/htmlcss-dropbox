@@ -160,14 +160,13 @@ img {
 
     nav {
         justify-content: space-between;
-
+        height: 80px;
     }
 
     ul {
         align-items: center;
         list-style: none;
         gap: 30px;
-        height: 80px;
 
         li {
             display: flex;
@@ -275,10 +274,6 @@ img {
         .card-header {
             text-align: center;
             padding: 1rem 0;
-
-            .divider {
-                width: 100%;
-            }
         }
 
         h3 {
@@ -292,89 +287,80 @@ img {
 
             li {
                 display: flex;
-                gap: 5px;
+            }
+
+            .plan-price {
+                font-weight: bold;
+                margin-bottom: 0.7rem;
+            }
+
+            .plan-cycle {
+                color: rgba(0, 0, 0, 0.6);
+                margin-bottom: 2rem;
+            }
+
+            .cta {
+                button {
+                    width: 100%;
+                    margin-bottom: 2rem;
+                }
+
+                .buy-now {
+                    margin-bottom: 2rem;
+                }
+            }
+
+            .divider {
+                width: 4rem;
+                margin-bottom: 3rem;
+            }
+
+            .plan-highlights {
+                i {
+                    color: var(--bg-primary-color);
+                }
+
+                .title {
+                    font-weight: bold;
+                }
+            }
+
+        }
+
+        .card-body-lg {
+            padding: 0 2rem 2rem 2rem;
+            flex-direction: row;
+
+            .card-body-lg-top {
+                justify-content: space-between;
 
                 span {
-                    line-height: 1.5rem;
-                }
-
-                i {
-                    padding: 3px 0;
+                    font-weight: bold;
                 }
             }
-        }
 
-        .plan-price {
-            font-weight: bold;
-            margin-bottom: 0.7rem;
-        }
-
-        .plan-cycle {
-            color: rgba(0, 0, 0, 0.6);
-            margin-bottom: 2rem;
-        }
-
-        .cta {
-            button {
-                width: 100%;
-                margin-bottom: 2rem;
-            }
-
-            .buy-now {
-                margin-bottom: 2rem;
+            .card-body-lg-bottom {
+                justify-content: space-between;
+                margin-top: 3rem;
             }
         }
 
         .divider {
-            width: 4rem;
-            margin-bottom: 3rem;
+            background-color: rgba(0, 0, 0, 0.2);
         }
 
-        .plan-highlights {
-            i {
-                color: var(--bg-primary-color);
-            }
+        ul {
+            list-style: none;
+            margin-bottom: 2rem;
 
-            .title {
-                font-weight: bold;
+            li {
+                margin: 1.2rem 0;
             }
         }
 
-    }
-
-    .card-body-lg {
-        padding: 0 2rem 2rem 2rem;
-        flex-direction: row;
-
-        .card-body-lg-top {
-            justify-content: space-between;
-
-            span {
-                font-weight: bold;
-            }
+        i {
+            margin-right: 5px;
         }
-
-        .card-body-lg-bottom {
-            justify-content: space-between;
-            margin-top: 3rem;
-        }
-    }
-
-    .divider {
-        background-color: rgba(0, 0, 0, 0.2);
-    }
-
-    ul {
-        list-style: none;
-        margin-bottom: 2rem;
-
-        li {
-            margin: 1.2rem 0;
-        }
-    }
-
-    i {
-        margin-right: 5px;
     }
 }
 
