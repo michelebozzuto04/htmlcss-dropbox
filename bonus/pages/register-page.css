@@ -232,6 +232,44 @@ img {
             margin-bottom: 2rem;
         }
 
+        .login-apps {
+            width: 100%;
+
+            .login-app-button {
+                width: 100%;
+                justify-content: center;
+                gap: 1rem;
+                align-items: center;
+                border: 1px solid rgba(0, 0, 0, 0.2);
+                padding: 1rem;
+                font-size: 1.2rem;
+                margin-bottom: 1rem;
+
+                img {
+                    width: 2rem;
+                }
+            }
+        }
+
+        .text-divider {
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 1rem;
+
+            .inline-divider {
+                display: inline;
+                flex-grow: 1;
+                height: 0.5px;
+                background-color: rgba(0, 0, 0, 0.2);
+            }
+
+            span {
+                padding: 0 1rem;
+                font-size: 1.3rem;
+            }
+        }
+
         input {
             font-size: 1.2rem;
             padding: 1rem;
@@ -244,32 +282,6 @@ img {
             padding: 1rem;
             font-size: 1rem;
         }
-    }
-
-
-
-    .login-apps {
-        width: 100%;
-
-        .login-app-button {
-            width: 100%;
-            justify-content: center;
-            gap: 1rem;
-            align-items: center;
-            border: 1px solid rgba(0, 0, 0, 0.2);
-            padding: 1rem;
-            font-size: 1.2rem;
-            margin-bottom: 1rem;
-
-            img {
-                width: 2rem;
-            }
-        }
-    }
-
-    .container {
-        flex-direction: column;
-        align-items: center;
     }
 }
 
