@@ -244,10 +244,15 @@ img {
                 padding: 1rem;
                 font-size: 1.2rem;
                 margin-bottom: 1rem;
+                cursor: pointer;
 
                 img {
                     width: 2rem;
                 }
+            }
+
+            .login-app-button:hover {
+                background-color: rgba(211, 211, 211, 0.3);
             }
         }
 
