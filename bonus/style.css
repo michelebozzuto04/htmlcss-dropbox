@@ -134,6 +134,11 @@
 }
 
 /*Generics*/
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+}
+
 body {
     font-family: sans-serif;
 }
